@@ -1,0 +1,195 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+main{
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    border-radius: 20px;
+    }  
+.obrazek
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.overlayT{
+    position: relative;
+
+}
+.overlayT img{
+    margin-top: 25px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.link img{
+width: 60px;
+height: 60px;
+
+}
+.overlayT .link
+{
+    position: absolute;
+    display: block;
+    width: 350px;
+   height: 350px;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(215, 51%, 70%, 55%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.overlayT:hover .link 
+{
+    opacity: 1;
+}
+
+
+.test
+{
+    position: relative;
+    display: block;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%, -43%);
+}
+
+nav
+{
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+   font-size: 25px;
+   margin: 25px;
+   cursor: pointer;
+
+}
+nav p:hover
+{
+    color: hsl(178, 100%, 50%);
+}
+
+.our
+{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+    margin: 25px;
+}
+
+
+.ethdays
+{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    font-size: 22px;
+}
+.days
+{
+    display: flex;
+    align-items: center;
+}
+.days img{
+    margin-right: 10px;
+    width: 22px;
+}
+
+.eth
+{
+    display: flex;
+    align-items: center;
+    
+}
+.eth img{
+    width: 14px;
+    margin-right: 10px;
+}
+
+.line1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line
+{
+    border-bottom: solid 2px hsl(215, 32%, 27%);
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -20px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 25px;
+    margin-top: 0;
+}
+footer img{
+    border: solid 2px white;
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 20px;
+}
+footer p:nth-child(2)
+{
+    color: hsl(215, 51%, 70%);
+    margin-right: 5px;
+}
+footer p:nth-child(3):hover
+{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+@media all and (max-width: 375px)
+
+
+{
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 350px;
+}
+.overlayT img{
+ 
+    width: 300px;
+    height: 300px;
+
+}
+.overlayT .link
+{
+   
+    width: 300px;
+   height: 300px;
+}
+.link img{
+    width: 60px;
+    height: 60px;
+    
+    }
+
+
+
+}
